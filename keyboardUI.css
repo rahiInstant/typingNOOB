@@ -33,14 +33,14 @@ body {
   border: 1px solid black;
   display: flex;
   flex-direction: column;
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Lora', Times, serif;
   font-size: 25px;
 }
 #field {
   height: 80%;
   margin: 3px;
   text-orientation: sideways-right;
-  font-family: "Times New Roman", 'Tiro Bangla',Times, serif;
+  font-family: 'Lora', 'Tiro Bangla',Times, serif;
   font-size: 20px;
 }
 .box {
@@ -61,7 +61,7 @@ body {
   padding: 2px 8px 0px 8px;
   font-size: 25px;
   /* transition: .2s; */
-  font-family: "Times New Roman", 'Tiro Bangla', Times, serif;
+  font-family: 'Lora', 'Tiro Bangla', Times, serif;
 }
 .cho {
   /* background-color: rgb(15, 83, 139); */
@@ -70,7 +70,7 @@ body {
   padding: 2px 8px 0px 8px;
   font-size: 20px;
   font-weight: bold;
-  font-family: "Times New Roman",'Tiro Bangla', Times, serif;
+  font-family: 'Lora','Tiro Bangla', Times, serif;
 }
 .item:hover {
   height: 57px;
