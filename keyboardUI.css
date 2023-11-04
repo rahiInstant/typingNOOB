@@ -6,6 +6,7 @@
 body {
   width: 100vw;
   height: 100vh;
+  
 }
 .title {
   width: 945px;
@@ -40,7 +41,7 @@ body {
   height: 80%;
   margin: 3px;
   text-orientation: sideways-right;
-  font-family: 'Lora', 'Tiro Bangla',Times, serif;
+  font-family: 'Lora', 'Noto Sans Bengali',Times, serif;
   font-size: 20px;
 }
 .box {
@@ -61,7 +62,7 @@ body {
   padding: 2px 8px 0px 8px;
   font-size: 25px;
   /* transition: .2s; */
-  font-family: 'Lora', 'Tiro Bangla', Times, serif;
+  font-family: 'Lora', 'Noto Sans Bengali', Times, serif;
 }
 .cho {
   /* background-color: rgb(15, 83, 139); */
@@ -70,7 +71,7 @@ body {
   padding: 2px 8px 0px 8px;
   font-size: 20px;
   font-weight: bold;
-  font-family: 'Lora','Tiro Bangla', Times, serif;
+  font-family: 'Lora','Noto Sans Bengali', Times, serif;
 }
 .item:hover {
   height: 57px;
