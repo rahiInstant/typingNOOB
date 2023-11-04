@@ -1,0 +1,233 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+.title {
+  width: 945px;
+  height: 40px;
+  background-color: rgb(145, 65, 7);
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 30px;
+  color: whitesmoke;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input {
+  width: 900px;
+  height: 240px;
+  padding: 20px;
+  margin: 5px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+}
+#field {
+  height: 80%;
+  margin: 3px;
+  text-orientation: sideways-right;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.box {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(15, 60px);
+  grid-template-rows: repeat(5, 60px);
+  /* justify-content: center;
+    align-content: center; */
+  gap: 3px;
+  transition: 0.5s;
+  margin-top: 5px;
+}
+.item {
+  background-color: rgb(13, 105, 21);
+  color: rgb(12, 11, 11);
+  text-align: left;
+  padding: 2px 8px 0px 8px;
+  font-size: 25px;
+  /* transition: .2s; */
+  font-family: "Times New Roman", "sutonnyomj", Times, serif;
+}
+.cho {
+  /* background-color: rgb(15, 83, 139); */
+  color: rgb(20, 20, 20);
+  text-align: left;
+  padding: 2px 8px 0px 8px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Times New Roman", "sutonnyomj", Times, serif;
+}
+.item:hover {
+  height: 57px;
+  width: 57px;
+  font-size: 23px;
+}
+.cho:hover {
+  height: 57px;
+  width: 117px;
+  font-size: 18px;
+}
+.item1 h6 {
+  font-size: 30px;
+  text-align: center;
+  print-color-adjust: rgb(233, 55, 55);
+}
+.foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.item14 {
+  grid-column: 14/16;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  font-family: "times new roman";
+}
+
+.item15 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "times new roman";
+  grid-column: 1/3;
+  padding: 0;
+}
+
+.head1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "sutonnyomj";
+}
+.foot1 {
+  text-align: right;
+  font-family: "sutonnyomj";
+}
+.foot2 {
+  display: flex;
+  justify-content: space-between;
+}
+.item26,
+.item27 {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.tu {
+  font-style: italic;
+}
+.item26 h5,
+.item27 h5 {
+  font-family: "times new roman";
+  font-weight: 300;
+  padding: 2px;
+}
+.item29 {
+  grid-column: 14/16;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.press {
+  background-color: lightgreen;
+}
+
+.item31 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item31 > img {
+  width: 30px;
+  height: 30px;
+}
+
+.item32 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 4/12;
+}
+
+.item32:hover {
+  width: 495px;
+}
+
+.udArrow {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+#ArrowUp {
+  width: 100%;
+  height: 50%;
+  background-color: darkgray;
+  display: flex;
+  justify-content: center;
+}
+
+#ArrowDown {
+  width: 100%;
+  height: 50%;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+}
+.rlArrow {
+  display: flex;
+  padding: 0;
+}
+
+#ArrowRight{
+  width: 50%;
+  height: 100%;
+  background-color: rgb(169, 169, 169);
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}
+#ArrowLeft {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(211, 211, 211);
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}
+.cmd {
+  color: white;
+  background-color: rgb(56, 52, 52);
+}
+.num {
+  background-color: rgb(134, 134, 134);
+}
+.spc {
+  background-color: white;
+  border: 2px solid rgb(175, 30, 30);
+}
+
+.chr {
+  background-color: rgb(14, 16, 34);
+  color: lightblue;
+}

@@ -1,0 +1,1 @@
+## For those who still can't type without looking at the keyboard, this will ease the problem to some extent. Because when you press any key on the keyboard, it appears on the screen. So that there is no need to look at the keyboard again and again. Which will increase efficiency, hopefully.
